@@ -1,6 +1,11 @@
 import * as PIXI from 'pixi.js';
 import gsap from 'gsap';
 
+// Import style sheets for preprocessing
+////////////////////////////////////////
+
+import "./style.scss";
+
 // Constants
 //////////////////////
 
@@ -11,8 +16,8 @@ const GRAVITY = 9.8;
 // const GROUND_HEX = 0xB89685;
 // const FG_HEX = 0x504746;
 // const BG_HEX = 0xE7F9A9;
-const GROUND_HEX = 0x000000;//E66C6C;
-const FG_HEX = 0x000000;//9E7171;
+const GROUND_HEX = 0xE66C6C;
+const FG_HEX = 0x9E7171;
 const BG_HEX = 0xFCC0C0;
 const GOAL_HEX = 0x000000;
 
